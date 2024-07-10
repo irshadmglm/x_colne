@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+}
+body{
+    background: #000000;
+    width: 100%;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+    color: white;
+    
+}
+h3{
+    font-family: 'San Francisco', 'Open Sans', 'Lato', sans-serif;
+    
+}
+nav{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+
+}
+nav .left{
+    width: 17%;
+   margin-left: 8%;
+}
+nav .left i{
+    font-size: 30px;
+}
+nav .center{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #000000;
+    border: 1px solid rgb(56, 56, 56);
+}
+nav .center div{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .center div:hover{
+    background-color: rgb(43, 43, 43);
+}
+nav .center h3{
+    color: white;
+}
+nav .right{
+    width: 35%;
+}
+nav .right .search-bar{
+    margin-left: 20px;
+    width: 320px;
+    height: 45px;
+    background-color: rgb(43, 43, 43);
+    color: #657786;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10px;
+}
+nav .right .search-bar i{
+    margin: 0 20px 0 20px;
+   
+}
+nav .right .search-bar input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    width: 70%;
+}
+main{
+    display: flex;
+    
+}
+main .left{
+    width: 17%;
+   margin-left: 8%;
+}
+main .left .bar{
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+main .left .bar:hover{
+    background-color: #657786;
+}
+main .left .bar i{
+    font-size: 20px;
+    margin-right: 13px;
+}
+main .left .bar img{
+    width: 20px;
+    margin-right: 15px;
+}
+main .left .bar .post{
+    width: 90%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(75, 108, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .center{
+    width: 40%;
+    display: flex;
+    border:1px solid rgb(56, 56, 56);
+}
+main .center .input-bar{
+    width: 100%;
+    height: 150px;
+    border:1px solid rgb(56, 56, 56);
+    
+}
+main .center .input-bar .input-txt{
+    width: 100%;
+    display: flex;
+
+}
+main .center .input-bar .input-txt img{
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+main .center .input-bar .input-txt input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #657786;
+    font-size: 20px;
+}
+main .center .input-bar .input-icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+main .center .input-bar .input-icon div{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+main .center .input-bar .input-icon img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+main .center .input-bar .input-icon i{
+   font-size: 20px;
+   margin-left: 20px;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: rgb(56, 56, 56);
+    margin: 10px 15px;
+}
