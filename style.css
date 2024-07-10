@@ -51,10 +51,10 @@ nav .right{
     width: 35%;
 }
 nav .right .search-bar{
-    margin-left: 20px;
-    width: 320px;
+    margin-left: 33px;
+    width: 350px;
     height: 45px;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(33, 33, 35);
     color: #657786;
     border-radius: 50px;
     display: flex;
@@ -86,7 +86,7 @@ main .left .bar{
     height: 55px;
 }
 main .left .bar:hover{
-    background-color: #657786;
+    background-color: #191919;
 }
 main .left .bar i{
     font-size: 20px;
@@ -104,57 +104,84 @@ main .left .bar .post{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-main .center{
-    width: 40%;
-    display: flex;
-    border:1px solid rgb(56, 56, 56);
-}
-main .center .input-bar{
-    width: 100%;
-    height: 150px;
-    border:1px solid rgb(56, 56, 56);
     
 }
-main .center .input-bar .input-txt{
-    width: 100%;
-    display: flex;
-
+main .center {
+    width: 40%;
 }
-main .center .input-bar .input-txt img{
-    margin: 15px;
+
+main .center .input-bar {
+    width: 100%;
+    background-color: #000000;
+    border: 1px solid #383838;
+    height: 130px;
+}
+
+main .center .input-bar .input-txt {
+    display: flex;
+    align-items: center;
+   
+    margin: 10px 20px;
+}
+
+main .center .input-bar .input-txt img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    margin-right: 15px;
+   
 }
-main .center .input-bar .input-txt input{
+
+main .center .input-bar .input-txt input {
     background: transparent;
-    border: 0;
+    border: none;
     outline: none;
-    color: #657786;
-    font-size: 20px;
-}
-main .center .input-bar .input-icon{
+    color: #ffffff;
+    font-size: 16px;
     width: 100%;
+}
+
+main .center .input-bar .input-icon {
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-right: 40px;
     
 }
-main .center .input-bar .input-icon div{
-display: flex;
-align-items: center;
-justify-content: center;
 
+main .center .input-bar .input-icon div {
+    display: flex;
+    align-items: center;
 }
-main .center .input-bar .input-icon img{
+
+main .center .input-bar .input-icon img {
     width: 20px;
     height: 20px;
-    margin-left: 20px;
+    margin: 0 5px;
 }
-main .center .input-bar .input-icon i{
-   font-size: 20px;
-   margin-left: 20px;
+
+main .center .input-bar .input-icon i {
+    font-size: 18px;
+    margin: 0 5px;
+}
+main .center .input-bar .input-icon .post-btn{
+ background:  rgb(75, 108, 255);
+ width: 80px;
+ height: 40px;
+ border-radius: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+main .center .input-bar hr {
+    border: none;
+    height: 1px;
+    background-color: #383838;
+    margin: 10px 0;
 }
 
 hr{
@@ -162,4 +189,67 @@ hr{
     height: 1px;
     background: rgb(56, 56, 56);
     margin: 10px 15px;
+}
+main .center .post{
+    width: 100%;
+    border: 1px solid #383838;
+}
+main .center .post .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 93%;
+    padding: 15px;
+}
+main .center .post .head .profile{
+    margin-right: 30px;
+}
+main .center .post .head .details{
+    display: flex;
+    width: 230px;
+    padding: 7px;
+    flex-wrap: wrap;
+}
+main .center .post .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    color: #494949;
+    padding-bottom: 15px;
+}
+main .center .post .footer div{
+    display: flex;
+    align-items: center;
+
+}
+
+main .center .post .footer i {
+    margin-right: 5px;
+}
+
+main .right{
+    margin-left: 38px;
+    margin-top: 10px;
+}
+main .right .subscribe {
+    width: 290px;
+    padding: 30px;
+    border: 1px solid #383838;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+main .right .happening{
+    width: 290px;
+    padding: 30px;
+    border: 1px solid #383838;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+main .right .follow{
+    width: 290px;
+    padding: 30px;
+    border: 1px solid #383838;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
